@@ -1,0 +1,80 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+/*sign up icon*/
+i{
+    margin-right:5rem;
+    margin-top: .8rem;
+    margin-left: 1rem;
+    font-size: .8rem;
+}
+/*crousel img*/
+.carousel-item img{
+    height:35rem;
+    width:100%;
+}
+.carousel-caption{
+    position: absolute;
+    right:35rem;
+    margin-left:-10rem;
+    bottom: 5rem;
+    padding-top: 1.25rem;
+    padding-bottom: 1rem;
+    color: #fff;
+    background-color:rgba(238, 130, 238, 0.5);
+
+}
+.carousel-caption h5{
+    margin-left:-31rem;
+}
+.carousel-caption p{
+    margin-left:-2rem;
+}
+.carousel-control-prev-icon{
+background-color: gray;
+}
+.carousel-control-next-icon{
+    background-color: gray;
+}
+/*about us*/
+.container btn{
+    border: none;
+}
+/*services */
+.service-img{
+    min-width: 100%;
+    max-height: 280px;
+}
+/*image box*/
+.card-text{
+    font-size: .8rem;
+}
+.card-img-top{
+    overflow: hidden;
+    transition: all ease 1.10s;
+    height:8rem;
+    width:12rem;
+}
+.btn-outline-primary{
+    margin-left:32rem;
+    margin-top:2rem;
+}
+.doctor{
+    margin-top:1rem;
+    margin-left:1rem;
+    transition: all ease 1.10s;
+}
+.img-fluid{
+    height:100%;
+}
+.offer_style{
+background-color:#a6dcef;
+}
+footer{
+    background:rgba(0,0,0,0.4)
+              url(../images/img11.jpg);
+
+}
